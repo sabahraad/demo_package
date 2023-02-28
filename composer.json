@@ -2,5 +2,6 @@
     "name": "raad/demo",
     "description": "it is a test package",
     "require": {},
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
