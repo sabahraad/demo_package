@@ -11,7 +11,7 @@ class DemoServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->make('Raad\Demo\demoController');
     }
 
     /**
